@@ -18,11 +18,11 @@ Here is my portrait😎😎
     3. coding<br>(I think the most elegant features of Java are Stream API and Lambda expressions.)<br>
     ```java
      List<String> names = List.of("Alice", "Bob", "Charlie", "David");
-
     List<String> filteredNames = names.stream()
         .filter(name -> name.length() > 3)
         .map(String::toUpperCase)
         .collect(Collectors.toList());
+    ```
     
 2. My friend<br>
     [His picture](/myFriend.jpg)<br>
